@@ -1,9 +1,8 @@
 ## Banco de dados
-### Prof. Marcelo Gonçalves de Souza
+Prof. Marcelo Gonçalves de Souza
 
+<B>MODELAGEM DE DADOS</B>
 
-- MODELAGEM DE DADOS
-
-MER/DER
-MODELO LÓGICO
-MODELO FÍSICO
+- MER/DER
+- MODELO LÓGICO
+- MODELO FÍSICO
