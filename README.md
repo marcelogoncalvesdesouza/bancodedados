@@ -3,6 +3,7 @@ Prof. Marcelo Gonçalves de Souza
 
 <B>MODELAGEM DE DADOS</B>
 
-- MER/DER
-- MODELO LÓGICO
-- MODELO FÍSICO
+- MER (Modelo Entidade-Relacionamento)
+- DER (Diagrama Entidade-Relacionamento)
+- Modelo LÓGICO
+- modelo FÍSICO
