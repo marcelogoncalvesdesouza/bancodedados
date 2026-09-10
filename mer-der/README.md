@@ -2,4 +2,4 @@
 
 - Prof. Marcelo Gonçalves de Souza
 
-![Texto alternativo para acessibilidade](assets/conceitual_max11_0101.png)
+![Texto alternativo para acessibilidade](assets/img/conceitual_max11_0101.png)
