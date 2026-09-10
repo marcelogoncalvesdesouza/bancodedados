@@ -11,5 +11,6 @@
 ### No modelo lógico pode-se interpretar de duas formas:
 
 1. Usa-se a regra do um para muitos:
-- Motorista (<u>id</u>, nome, cnh)
-- Veiculo (<u>id</u>, marca, modelo, placas)
+- Motorista (<s>id</s>, nome, cnh)
+- Veiculo (<s>id</s>, marca, modelo, placas, @id_motorista)
+          id_motorista referencia Motorista (id)
