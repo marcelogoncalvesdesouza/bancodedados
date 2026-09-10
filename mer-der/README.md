@@ -14,3 +14,6 @@
 - Motorista (<b>id</b>, nome, cnh)
 - Veiculo (<b>id</b>, marca, modelo, placas, @id_motorista)<br />
       id_motorista referencia Motorista (id)
+
+2. Usa-se uma tabela única
+- Motorista_veiculo (<b>id</b>, nome, cnh, marca, modelo, placas)
