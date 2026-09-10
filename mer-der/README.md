@@ -20,24 +20,36 @@
 
 - Motorista_veiculo (<b>id</b>, nome, cnh, marca, modelo, placas)
 
-### No modelo físico:
+### No modelo físico - primeira forma:
 
 ```
 CREATE TABLE motorista(
   id BIGINT AUTO_INCREMENT,
-  nome VARCHAR(128),
-  cnh VARCHAR(128),
+  nome VARCHAR(128) NOT NULL,
+  cnh VARCHAR(128) NOT NULL,
   PRIMARY KEY (id)
 );
 ```
 ```
 CREATE TABLE veiculo(
   id BIGINT AUTO_INCREMENT,
-  marca VARCHAR(32),
-  modelo VARCHAR(64),
-  placas VARCHAR(16),
-  id_motorista BIGINT,
-  FOREIGN KEY (id_motorista) REFERENCES motorista (id)
+  marca VARCHAR(32) NOT NULL,
+  modelo VARCHAR(64) NOT NULL,
+  placas VARCHAR(16) NOT NULL,
+  id_motorista BIGINT NULL,
+  FOREIGN KEY (id_motorista) REFERENCES motorista (id),
+  PRIMARY KEY (id)
+);
+```
+### No modelo físico - segunda forma:
+```
+CREATE TABLE motorista_veiculo(
+  id BIGINT AUTO_INCREMENT,
+  nome VARCHAR(128) NOT NULL,
+  cnh VARCHAR(128) NOT NULL,
+  marca VARCHAR(32) NULL,
+  modelo VARCHAR(64) NULL,
+  placas VARCHAR(16) NULL,
   PRIMARY KEY (id)
 );
 ```
