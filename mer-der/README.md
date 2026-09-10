@@ -2,6 +2,8 @@
 
 - Prof. Marcelo Gonçalves de Souza
 
+### Cardinalidades 1 (um) para 1 (um)
+
 <p align="center">
   <img src="assets/img/conceitual_max11_0101.png" alt="Texto Alternativo" width="75%">
 </p>
