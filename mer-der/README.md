@@ -11,5 +11,5 @@
 ### No modelo lógico pode-se interpretar de duas formas:
 
 1. Usa-se a regra do um para muitos:
-Motorista (<u>id</u>, nome, cnh)
-Veiculo (<u>id</u>, marca, modelo, placas)
+- Motorista (<u>id</u>, nome, cnh)
+- Veiculo (<u>id</u>, marca, modelo, placas)
