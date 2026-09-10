@@ -53,3 +53,17 @@ CREATE TABLE motorista_veiculo(
   PRIMARY KEY (id)
 );
 ```
+### Inserindo dados - primeira forma:
+INSERT INTO motorista (nome, cnh) VALUES ('Carlos Eduardo Souza', '12345678910');
+INSERT INTO motorista (nome, cnh) VALUES ('Mariana Lima Rodrigues', '98765432100');
+INSERT INTO motorista (nome, cnh) VALUES ('Roberto Alves Ferreira', '45678912344');
+INSERT INTO motorista (nome, cnh) VALUES ('Juliana Mendes Costa', '32165498711');
+INSERT INTO motorista (nome, cnh) VALUES ('Ricardo Oliveira Santos', '78912345622');
+```
+### Inserindo dados - segunda forma:
+INSERT INTO veiculo (marca, modelo, placas, id_motorista) VALUES ('Toyota', 'Corolla', 'ABC-1234', 1);
+INSERT INTO veiculo (marca, modelo, placas, id_motorista) VALUES ('Chevrolet', 'Onix', 'XYZ-5678', 2);
+INSERT INTO veiculo (marca, modelo, placas, id_motorista) VALUES ('Volkswagen', 'Gol', 'KKK-9012', 3);
+INSERT INTO veiculo (marca, modelo, placas, id_motorista) VALUES ('Fiat', 'Uno', 'MNO-3456', 4);
+INSERT INTO veiculo (marca, modelo, placas, id_motorista) VALUES ('Ford', 'Ka', 'QWE-7890', 5);
+```
