@@ -2,4 +2,6 @@
 
 - Prof. Marcelo Gonçalves de Souza
 
-![Texto alternativo para acessibilidade](assets/img/conceitual_max11_0101.png)
+<p align="center">
+  <img src="assets/img/conceitual_max11_0101.png" alt="Texto Alternativo" width="75%">
+</p>
