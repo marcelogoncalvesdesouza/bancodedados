@@ -11,9 +11,12 @@
 ### No modelo lógico pode-se interpretar de duas formas:
 
 1. Usa-se a regra do um para muitos:
-- Motorista (<b>id</b>, nome, cnh)
-- Veiculo (<b>id</b>, marca, modelo, placas, @id_motorista)<br />
+```
+Motorista (<b>id</b>, nome, cnh)
+Veiculo (<b>id</b>, marca, modelo, placas, @id_motorista)<br />
       id_motorista referencia Motorista (id)
-
+```
 2. Usa-se uma tabela única
-- Motorista_veiculo (<b>id</b>, nome, cnh, marca, modelo, placas)
+```
+Motorista_veiculo (<b>id</b>, nome, cnh, marca, modelo, placas)
+```
