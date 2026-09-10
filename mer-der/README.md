@@ -7,3 +7,9 @@
 <p align="center">
   <img src="assets/img/conceitual_max11_0101.png" alt="Texto Alternativo" width="75%">
 </p>
+
+### No modelo lógico pode-se interpretar de duas formas:
+
+1. Usa-se a regra do um para muitos:
+Motorista (<u>id</u>, nome, cnh)
+Veiculo (<u>id</u>, marca, modelo, placas)

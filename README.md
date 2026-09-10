@@ -1,7 +1,7 @@
 ## Banco de dados
 Prof. Marcelo Gonçalves de Souza
 
-<B>As oito etapas para a modelagem de dados</B>
+### <B>As oito etapas para a modelagem de dados</B>
 
 - Entender o <B>PROBLEMA</B>:
 Neste início deve-se entender qual a natureza dos dados e como eles irão se conectar. Por exemplo: Em uma clínica médica o que é importante? Como tirar um maior proveito desse banco de dados? É necessário se informar com o responsável pelo projeto (cliente, colaboradores, etc) o que seria viável ter disponível no banco de dados a qualquer momento de forma íntegra, ou seja, sem brechas para duplicidade de informações inconsistentes.
